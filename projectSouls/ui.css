@@ -1,0 +1,302 @@
+body{
+	font-family: SF-Pro;
+}
+input:hover::placeholder{
+	color:#c5c5c5;
+}
+input[type="text"]{
+border:0px solid #224a5f;
+background:transparent;
+height:30px;
+padding:3px 0px;
+text-indent:80px;
+font-size:1.0rem;
+color:#757575;
+width:100%;
+outline: none;
+border: none;
+}
+input[type="date"]{
+border:0px solid #224a5f;
+background:transparent;
+height:30px;
+padding:3px 0px;
+text-indent:40px;
+font-size:1.0rem;
+color:#757575;
+width:100%;
+outline: none;
+border: none;
+}
+::-webkit-calendar-picker-indicator{
+cursor: url('library/cursors/erc.cur'), auto;
+padding: 0px 80px 0 0;
+background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 24 24"><path fill="%23757575" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
+display:none;
+}
+input[type="button"]{
+padding: 10px 60px;
+border: none;
+width: 100%;
+outline: none;
+border: none;
+background: linear-gradient(to right, #ffffff00 0%, #224a5f 15%, #224a5f 85%, #ffffff00 100%);
+color: #c5c5c5;
+font-weight: 600;
+}
+select{
+border:0px solid #224a5f;
+background-color:#ffffff00;
+height:35px;
+padding:5px;
+text-indent:5px;
+font-size:1.0rem;
+color:#757575;
+width:100%;
+}
+textarea{
+border: 0px solid #224a5f;
+background-color: transparent;
+padding: 3px 0px;
+text-indent: 10px;
+font-size: 1.0rem;
+color: #757575;
+width: 100%;
+outline: none;
+border: none;
+resize: none;
+}
+input[type="text"]:hover, input[type="date"]:hover{
+	color:#c5c5c5;
+}
+.kkode{
+height: 300px;
+padding: 10px 80px;
+text-indent: 0px;
+width:640px;
+overflow:hidden;
+background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(43, 43, 43, 0.35) 5%, rgba(43, 43, 43, 0.35) 95%, rgba(0, 0, 0, 0) 100%);
+}
+.dsCell{
+font-size: 1.0rem;
+color: #c5c5c5;
+width: 100%;
+outline: none;  
+}
+.ple{
+	background:linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(43, 43, 43, 0.35) 5%, rgba(43, 43, 43, 0.35) 95%, rgba(0, 0, 0, 0) 100%);
+}
+.ple:hover{
+	background:linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(63, 63, 63, 0.75) 5%, rgba(63, 63, 63, 0.75) 95%, rgba(0, 0, 0, 0) 100%);
+	color:#c5c5c5;
+}
+.ots{
+	margin:4px 0px;
+}
+.selectT{
+height:35px;
+width:100%;
+color:#757575;
+align-items:center;
+/*background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(43, 43, 43, 0.75) 5%, rgba(43, 43, 43, 0.75) 95%, rgba(0, 0, 0, 0) 100%);
+*/
+}
+.arrow{
+width:20px;
+height:20px;
+background-image:url("library/ico/arrows_inv2.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #ffffff00;
+}
+.arLeft{
+	background-position: -12px 0px;
+}
+.arRight{
+background-position: 7px 0px;
+}
+.selectLabel{
+text-indent: 80px;
+width: 50%;
+}
+.optionObject{
+width: 280px;
+text-align: center;
+display:none;
+}
+.selectActive{
+display:block;
+}
+.dsRange{
+position:relative;
+width: 100%;
+height: 35px;
+flex-direction: column;
+justify-content: center;
+}
+.dsRangeLine{    
+padding: 6px;
+flex-direction: column;
+justify-content: center;
+}
+.dsRangeLineRoadActive{
+position: absolute;
+height:2px;
+background-color: #224a5f;	
+box-shadow:0 0 3px 2px #224a5f;
+}
+.dsRangeLineRoad{
+height: 4px;
+background-color: #3d3d3d;	
+}
+.dsRangeControl{
+width:4px;
+height:18px;
+border-radius: 3px;
+background-color: #224a5f;
+position: absolute;
+box-shadow:0 0 3px 2px #224a5f;
+}
+.dsRangeLineBegin, .dsRangeLineEnd{
+width: 1px;
+height:14px;
+border-radius: 3px;
+background-color: #224a5f;
+box-shadow:0 0 3px 2px #224a5f;
+position: absolute;
+}
+.dsRangeLineBegin{left:4px;}
+.dsRangeLineEnd{right:4px;}
+.dsCheckbox{
+width: 800px;
+height: 60%;
+margin: 10% auto;
+display: flex;
+flex-direction: column;
+background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.11) 10%, rgba(255, 255, 255, 0.11) 90%, rgba(255, 255, 255, 0) 100%);
+}
+.dsCheckbox:active, .dsCheckbox[checked]{
+background-color: #224a5f;
+box-shadow: 0 0 1px 1px #696969;
+}
+.panelPlace{
+width: 800px;
+height: 60%;
+margin: 5% auto 0;
+background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 5%, rgba(0, 0, 0, 0.75) 95%, rgba(0, 0, 0, 0) 100%);
+}
+.headPlaceZag{
+height:45px;
+width:100%;
+color:#c5c5c5;
+background:linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(43, 43, 43, 0.35) 5%, rgba(43, 43, 43, 0.35) 95%, rgba(0, 0, 0, 0) 100%);
+}
+.headPlaceZagOth{
+height:35px;
+width:100%;
+line-height:45px;
+color:#c5c5c5;
+background:linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(43, 43, 43, 0.35) 5%, rgba(43, 43, 43, 0.35) 95%, rgba(0, 0, 0, 0) 100%);
+align-items:center;
+}
+.headTxt{
+	text-indent:50px;
+}
+.hma{
+	margin:0px 0px 0px 50px;
+}
+.headPlaceBorder{
+height: 2px;
+width: 100%;
+background: linear-gradient(to right, #ffffff00 0%, #224a5f 15%, #224a5f 85%, #ffffff00 100%);
+}
+.pageHeadePlace{
+height:50px;
+width:300px;
+margin: 20px 0px;
+/*position: absolute;*/
+background: linear-gradient(to right, #224a5f 0%, #224a5f 59%, rgba(0, 0, 0, 0) 100%);
+}
+.pageHeadePlaceImg{
+width:50px;
+height:50px;
+margin: 0px 0px 0px 20px;
+z-index: 5;
+}
+.pageHeadePlaceName{
+color:#b9b9b9;
+line-height:50px;
+text-indent:10px;
+font-size:1.2rem;
+z-index: 5;
+}
+.headMenublock{
+	height:45px;
+	width:45px;
+	/*box-shadow:0 0 1px 1px #c5c5c5;*/
+	margin-right:15px;
+}
+.headMenublockDop{
+	height:25px;
+	width:25px;
+	/*box-shadow:0 0 1px 1px #c5c5c5;*/
+	margin-right:15px;
+	line-height: normal;
+}
+.mInvert{
+	transform:RotateZ(180deg);
+}
+.tabviewPlace, .headTxt{
+	display:none;
+}
+.activeTab, .activSet{
+	display:block;
+}
+.tabviewHead{
+	align-items:center;
+	line-height: 45px;
+}
+.activeTabhead{
+	box-shadow: inset 0 0 14px 9px #224a5f;
+    border-radius: 0px 0px 40px 40px;
+}
+.inpSet{
+	width:320px;
+    text-align:center;
+}
+.inpSet input{
+	text-indent:0px;
+	text-align: center;
+	background-color: #c1c1c124;
+}
+.headZagImg{
+	width: 300px;
+    height: 50px;
+    position: absolute;
+}
+.headZagImg img{
+	width:100%;
+    height:100%;
+    filter:invert(0.5);
+}
+.footerPlaceMenu{
+	width: 800px;
+    height: 100px;
+    margin: 0 auto 5%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 5%, rgba(0, 0, 0, 0.75) 95%, rgba(0, 0, 0, 0) 100%);
+}
+.footerButtonPlace{
+	width:100px;
+	align-items:center;
+	font-size: 0.75rem;
+}
+.iconButtonMenu{
+	width:20px;
+	height:20px;	
+}
+.dfd{
+	align-items:center;
+}
+.iconButtonMenuText{
+	text-indent:10px;
+}

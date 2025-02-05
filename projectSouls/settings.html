@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="all"  href="./common.css" />
+    <link rel="stylesheet" type="text/css" media="all"  href="./ui.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainForm">
+        <div class="titleBarPlace flx drg">
+			<div class="flx jlf">
+				<div class=""><div class="lgplace"><div style="padding:4px 0px;height:22px;width:22px;"><img src="library/ico/logo.png" title="Minimised"></div></div></div>
+				<div id="titlace"></div>
+			</div>
+			<div class="flx jrh">
+				<div class="formMin"><div class="fmplace"><img src="library/ico/minid.png" title="Minimised"></div></div>
+				<div class="formMax"><div class="fiplace"><img src="library/ico/maxed.png" title="Maximised"></div></div>		
+				<div class="formExit"><div class="feplace"><img src="library/ico/closed.png" title="Exit" ></div></div>
+			</div>			
+		</div>
+		<div class="viewPanel">
+			<div id="viewMonitor" class="flx" style="background-size:cover;background-image:url(library/ico/bg.png);">
+				<div class="pageHeadePlace flx">
+					<div class="headZagImg"><img src="library/ico/pilb.png"></div>
+					<div class="pageHeadePlaceImg"><img src="library/ico/sett.png"></div>
+					<div class="pageHeadePlaceName">НАСТРОЙКИ</div>
+				</div>
+				<div class="panelPlace">
+					<div class="dsCell">
+						<div>
+							<div class="headPlaceZagOth headTxt activSet">Основные</div>
+							<div class="headPlaceZagOth headTxt ">Списки отгрузки</div>
+							<div class="headPlaceZagOth headTxt ">Звуки</div>
+							<div class="headPlaceZagOth headTxt ">Интерфейс</div>
+						</div>						
+						<div class="headPlaceBorder"></div>
+							<div class="headPlaceZag hma">
+								<div class="tabviewHead flx">
+									<div class="headMenublockDop"><img src="library/ico/arrd.png"></div>
+									<div class="headMenublock activeTabhead"><img src="library/ico/22.png"></div>
+									<div class="headMenublock"><img src="library/ico/42.png"></div>
+									<div class="headMenublock"><img src="library/ico/12.png"></div>
+									<div class="headMenublock"><img src="library/ico/22.png"></div>
+									<div class="headMenublockDop"><img class="mInvert" src="library/ico/arrd.png"></div>
+								</div>
+							</div>
+							<div class="headPlaceBorder"></div>						
+					</div>
+					<div class="tabview">
+						<div class="tabviewPlace activeTab">							
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Интерфейс </div>
+								<div class="flx jlf">
+									<button class="arrow arLeft"></button>
+									<div class="selectData">
+										<div class="optionObject selectActive"> Русский</div>
+										<div class="optionObject"> Английский</div>
+									</div>
+									<button class="arrow arRight"></button>						
+								</div>					
+							</div>							
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Загрузка с системой </div>
+								<div class="flx jlf">
+									<button class="arrow arLeft"> </button>
+									<div class="selectData">
+										<div class="optionObject selectActive"> Выкл </div>
+										<div class="optionObject "> Вкл </div>
+									</div>
+									<button class="arrow arRight"> </button>						
+								</div>					
+							</div>
+						</div>
+						<div class="tabviewPlace ">
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Driver 1 </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="Driver" />
+									</div>			
+								</div>					
+							</div>
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Driver 2 </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="Driver" />
+									</div>			
+								</div>					
+							</div>
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Driver 3 </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="Driver" />
+									</div>			
+								</div>					
+							</div>
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Driver 4 </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="Driver" />
+									</div>			
+								</div>					
+							</div>
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Driver 5 </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="Driver" />
+									</div>			
+								</div>					
+							</div>
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Доставка </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="DpD" />
+									</div>			
+								</div>					
+							</div>
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Вне списков </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="New" />
+									</div>			
+								</div>					
+							</div>
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Отсчет дней ( - ) </div>
+								<div class="flx jlf">
+									<button class="arrow arLeft"></button>
+									<div class="selectData">
+										<div class="optionObject"> 0 </div>
+										<div class="optionObject selectActive"> 1 </div>
+										<div class="optionObject"> 2 </div>
+										<div class="optionObject"> 3 </div>
+										<div class="optionObject"> 4 </div>
+										<div class="optionObject"> 5 </div>										
+									</div>
+									<button class="arrow arRight"></button>						
+								</div>					
+							</div>
+						</div>
+						<div class="tabviewPlace ">							
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Основной трек </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="main_track.mp3" />
+									</div>			
+								</div>					
+							</div>
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Запуск игры </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="start_game_track.mp3" />
+									</div>			
+								</div>					
+							</div>
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Шаги на экране </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="step_by_step.mp3" />
+									</div>			
+								</div>					
+							</div>
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Шаги в настройках </div>
+								<div class="flx jlf">
+									<div class="inpSet">
+										<input type="text" class="" placeholder="step_by_settings.mp3" />
+									</div>			
+								</div>					
+							</div>							
+						</div>
+						<div class="tabviewPlace ">							
+							<div class="selectT flx ple ots">
+								<div class="selectLabel"> Дополнительно </div>
+								<div class="flx jlf">
+									<button class="arrow arLeft"></button>
+									<div class="selectData">
+										<div class="optionObject selectActive"> Доп 1 </div>
+										<div class="optionObject"> Доп 2 </div>
+									</div>
+									<button class="arrow arRight"></button>						
+								</div>					
+							</div>
+						</div>
+					</div>					
+				</div>
+				<div>
+					<div class="footerPlaceMenu">
+						<div class="dsCell">
+							<div class="headPlaceZag">
+								<div class="hma flx">
+									<div class="footerButtonPlace flx">
+										<div class="iconButtonMenu">
+											<img src="library/ico/iconb_f.png">
+										</div>
+										<div class="iconButtonMenuText">сохранить</div>
+									</div>
+									<div class="footerButtonPlace flx">
+										<div class="iconButtonMenu">
+											<img src="library/ico/iconb_r.png">
+										</div>
+										<div class="iconButtonMenuText">сбросить</div>
+									</div>
+									<div class="footerButtonPlace flx">
+										<div class="iconButtonMenu">
+											<img src="library/ico/iconb_esc.png">
+										</div>
+										<div class="iconButtonMenuText">выход</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+<script  src="./uib.js"></script>
+</body>
+</html>
+<!--
+основные
+	- язык+
+	- автозагрузка с виндовс ???+
+	
+музыка - настройка фоновой музыки и звуков (в файл)
+	- путь до основного трека
+	- путь до звука старт гейм
+	- путь до звука смены на меин экране
+	- путь до звука смены в настройках
+	- плейлист музыки на фон(хотелось бы сделать)
+
+настройка списков отгрузки
+	- Имена водителей+
+	- отсчет дней назад для этикеток(дефолт = -1 день)+
+
+-->

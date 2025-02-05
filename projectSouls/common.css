@@ -1,0 +1,158 @@
+@font-face {
+	font-family:'SF-Pro';
+	src: local('SF-Pro'), local('SF-Pro'),
+	url('./library/fonts/SF-Pro.woff2') format('woff2');
+	font-weight:100;
+	font-style:normal;
+}
+@font-face {
+	font-family:'masonchronicles';
+	src: local('masonchronicles'), local('masonchronicles'),
+	url('./library/fonts/masonchronicles.ttf') format('truetype');
+	font-weight:100;
+	font-style:normal;
+}
+:root{	
+	--main_theme_color1:#26a4e2;
+	--default_sysbar_color:#1c1c1c;	
+	--default_sysbar_colorR:#e81123;	
+	--default_shadow_col:#f7f7f7;
+}
+*[unselectable=on] {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select:none;
+	user-select: none;	
+}
+*{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select:none;
+	user-select: none;
+	outline: none;
+	border: none;
+}
+body{
+    padding:0px;
+	margin:4px;
+    overflow:hidden;	
+	height:100vh;	
+}
+a, button, input, a img, img, select{
+	-webkit-app-region: no-drag;
+	cursor: url('library/cursors/erc.cur'), auto;
+}
+.drg{
+	-webkit-app-region: drag;
+}
+.flx{
+	display:flex;
+}
+.mainForm{
+    width:100%;
+    height:99%;
+    margin:0px;
+    padding: 0px;
+    box-shadow: 0 0 3px 3px #3d3d3d3a;
+    background-color:#111111;
+}
+.viewPanel{
+    width:100%;
+    height:97%;
+	position:relative;
+	cursor: url('library/cursors/erc.cur'), auto;
+}
+#viewMonitor{
+	background-color:#111111;
+	background-size:cover;
+    height: 100%;
+    position: relative;
+	flex-direction: column;
+}
+.titleBarPlace{
+	width:100%;
+	height:30px;
+	align-items: center;	
+	justify-content: space-between;
+	background-color:#fff;
+}
+.jrh{
+	justify-content:flex-end;
+}
+.jlf{
+	justify-content:flex-start;
+	align-items:center;
+}
+.fmplace, .fiplace, .feplace{	
+	padding:1px 8px;
+	width:28px;
+	height:28px;
+}
+.lgplace{
+	padding:1px 8px;
+	height:28px;
+}
+.lgplace img{
+	width:100%;
+	height:100%;
+}
+.fmplace img, .fiplace img, .feplace img, .pageHeadePlaceImg img, .headMenublock img, .headMenublockDop img, .iconButtonMenu img{
+	width:100%;
+	height:100%;
+}
+.formExit:hover{
+	background-color: var(--default_sysbar_colorR);
+}
+.formExit:hover img{
+	content:url("library/ico/closew.png");
+}
+.formExit{
+
+}
+.formMin:hover, .formMax:hover{
+	background-color: #efefef;
+}
+#statWeb{
+	text-shadow:0 0 10px #00e1ff;
+    font-weight:600;
+}
+#first_text {
+	opacity: 1;
+	transition: opacity 1s ease-in-out;
+}
+.menuAct{
+	text-shadow:0 0 10px #00e1ff;
+	color:#fff;
+}
+#attantionMesForm{
+	flex-direction:column;
+	justify-content:space-between;
+	height:100%;
+}
+#first_text{
+	color:rgb(185 185 185);
+	width:450px;
+	margin:auto;
+	font-size:1.3rem;
+	text-align:center;
+	margin:100px auto 0px;
+}
+#nameTextBig{
+	color:rgb(255, 255, 255);
+	margin:15% auto 0px;
+	font-size:11.3rem;
+	text-align:center;
+	text-shadow:0 0 10px #00e1ff;
+}
+#corpTextSml{
+	color: rgb(209 209 209);
+	margin:8% auto 0px;
+	font-size: 0.8rem;
+	text-align:center;
+}
